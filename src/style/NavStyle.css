@@ -1,0 +1,29 @@
+
+
+#navbar {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;    
+    width: 100%;
+    height: auto;
+}
+
+.navItem {
+    color: #FC6E6A;
+    padding: 15px;
+    font-size: 3vh;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 2%;
+}
+
+.navItem:hover {
+    color: black;
+    cursor: pointer;
+}
+
+img {
+    width: 30%;
+    height:auto;
+    margin-right: auto;
+}

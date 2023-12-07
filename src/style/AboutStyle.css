@@ -1,0 +1,51 @@
+#about {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+#about-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+    padding: 0vh 5vh 0vh 5vh;;
+}
+
+.about-content-item {
+    padding: 3vh;
+    width:auto;
+}
+
+.elina-illustration {
+    height: 80vh;
+    width: auto;
+}
+
+#taglines {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-top: 40px;
+}
+
+.tag {
+    font-weight: bold;
+    margin-right: 5px;
+    color: white;
+    padding: 7px;
+}
+
+#tag-1 {
+    background-color: #FC6F6B;
+}
+
+#tag-2 {
+    background-color: #FFB2B2;
+}
+
+#tag-3 {
+    background-color: #FFC456;
+}
+
+#tag-4 {
+    background-color: #5C9161;
+}

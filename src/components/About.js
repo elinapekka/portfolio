@@ -1,23 +1,32 @@
-/*
-import { createUseStyles } from "react-jss";
-
-const useStyles = createUseStyles({
-  wrapper: {
-    height: "50vh",
-    backgroundColor: "#f2f3f7"
-  },
-  image: {
-    padding: 10
-  }
-});
-*/
+import "../style/AboutStyle.css";
+import NavBar from "../routers/Nav";
+import illustrationElina from "../images/For_Ellu/Illustrations/Elina.png";
 
 const About = () => {
   //const classes = useStyles();
   return (
-    <section style={{height: "100vh", backgroundColor: "#f2f3f7"}}>
+    <section className="content">
       <div id="about">
-        <span>Hello</span>
+        <NavBar />
+        <div id="about-content">
+          <div className="about-content-item">
+            <h1>About me</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
+              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
+              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
+              culpa qui officia deserunt mollit anim id est laborum.</p>
+
+            <div id="taglines">
+              <div className="tag" id="tag-1">Always ready to learn new</div>
+              <div className="tag" id="tag-2">Passion for coding</div>
+              <div className="tag" id="tag-3">Proactive</div>
+              <div className="tag" id="tag-4">Gets along with everyone</div>
+            </div>
+          </div>
+          <img className="elina-illustration" src={illustrationElina} alt="illustration of me"></img>
+        </div>
       </div>
     </section>
   );
