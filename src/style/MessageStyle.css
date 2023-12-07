@@ -1,0 +1,61 @@
+.message {
+    height: 3vh;
+    padding-bottom: 0.5vh; 
+    overflow: hidden;
+    position: relative;
+    padding-bottom: 5px;
+    background-color: #24A255;
+    color: white;
+    font-weight: 500;
+    font-size: 2vh;
+}
+
+.message img {
+    height: 1.5vh;
+    width: auto;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.message h3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+
+    line-height: 3.5vh;
+    text-align: center;
+  
+    /* Starting position */
+    -moz-transform:translateX(100%);
+    -webkit-transform:translateX(100%);  
+    transform:translateX(100%);
+  
+   /* Apply animation to this element */  
+    -moz-animation: message 25s linear infinite;
+    -webkit-animation: message 25s linear infinite;
+    animation: message 25s linear infinite;
+}
+  
+  /* Move it (define the animation) */
+@-moz-keyframes message {
+    0%   { -moz-transform: translateX(-100%); }
+    100% { -moz-transform: translateX(100%); }
+}
+@-webkit-keyframes message {
+    0%   { -webkit-transform: translateX(-100%); }
+    100% { -webkit-transform: translateX(100%); }
+}
+@keyframes message {
+    0%   { 
+    -moz-transform: translateX(-100%); /* Firefox bug fix */
+    -webkit-transform: translateX(-100%); /* Firefox bug fix */
+    transform: translateX(-100%);         
+    }
+    100% { 
+    -moz-transform: translateX(100%); /* Firefox bug fix */
+    -webkit-transform: translateX(100%); /* Firefox bug fix */
+    transform: translateX(100%); 
+    }
+}
+      
