@@ -19,10 +19,10 @@ const About = () => {
               culpa qui officia deserunt mollit anim id est laborum.</p>
 
             <div id="taglines">
-              <div className="tag" id="tag-1">Always ready to learn new</div>
-              <div className="tag" id="tag-2">Passion for coding</div>
-              <div className="tag" id="tag-3">Proactive</div>
-              <div className="tag" id="tag-4">Gets along with everyone</div>
+              <div className="tag" id="tag-1"><p>Always ready to learn new</p></div>
+              <div className="tag" id="tag-2"><p>Passion for coding</p></div>
+              <div className="tag" id="tag-3"><p>Proactive</p></div>
+              <div className="tag" id="tag-4"><p>Gets along with everyone</p></div>
             </div>
           </div>
           <img className="elina-illustration" src={illustrationElina} alt="illustration of me"></img>

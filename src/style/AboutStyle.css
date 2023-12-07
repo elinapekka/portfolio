@@ -28,12 +28,20 @@
 }
 
 .tag {
-    font-weight: bold;
-    margin-right: 5px;
-    color: white;
+    height: auto;
+    margin-right: 1.5vh;
     padding: 7px;
-    align-items: center;
-    
+    display: flex; 
+    align-items: center; 
+}
+
+.tag p {
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    font-size: 3vh;
+    line-height: normal;
 }
 
 #tag-1 {
