@@ -1,0 +1,29 @@
+#project-container {
+    background-color: pink;
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 1px;
+    padding: 1px;
+}
+
+.project-item {
+    background-color: bisque;
+    border: 1px solid black;
+}
+
+.project-item:hover {
+    background-color: antiquewhite;
+}
+
+.project-item h2 {
+    padding: 10px 0px 0px 0px;
+    margin: 0;
+}
+
+.project-item p {
+    padding: 0px 0px 10px 0px;
+}
+
+.project-image {
+    width: 100%;
+}
