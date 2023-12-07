@@ -9,7 +9,11 @@ const Contact = () => {
         <div id="contact-content">
           <div className="contact-info">
             <h1>Contact info</h1>
-            <p>On LinkedIn you can find more indepth information about my educational background and skills. Don't hesitate to contact me!</p>
+            <p>
+              Let's get in touch!
+              <br />
+              On LinkedIn you can find more in-depth information about my educational background and skills. 
+            </p>
             <a href="https://www.linkedin.com/in/elina-pekkanen-457a26264/" target="_blank" rel="noreferrer"><img src={linkedInLogo} alt="linkedin logo"/></a>
           </div>
           <img src={illustration} alt="contact illustration"/>

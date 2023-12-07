@@ -3,7 +3,7 @@
     padding-bottom: 0.5vh; 
     overflow: hidden;
     position: relative;
-    padding-bottom: 5px;
+    padding-bottom: 1vh;
     background-color: #24A255;
     color: white;
     font-weight: 500;
@@ -13,8 +13,8 @@
 .message img {
     height: 1.5vh;
     width: auto;
-    margin-left: 15px;
-    margin-right: 15px;
+    margin-left: 3vh;
+    margin-right: 3vh;
 }
 
 .message h3 {
