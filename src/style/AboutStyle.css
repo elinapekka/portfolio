@@ -24,7 +24,7 @@
     display: flex;
     align-items: stretch;
     justify-content: flex-start;
-    margin-top: 40px;
+    margin-top: 30px;
 }
 
 .tag {
@@ -32,6 +32,8 @@
     margin-right: 5px;
     color: white;
     padding: 7px;
+    align-items: center;
+    
 }
 
 #tag-1 {
@@ -49,3 +51,5 @@
 #tag-4 {
     background-color: #5C9161;
 }
+
+

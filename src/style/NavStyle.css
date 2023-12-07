@@ -1,5 +1,3 @@
-
-
 #navbar {
     display: flex;
     align-items: flex-start;
@@ -18,8 +16,9 @@
 }
 
 .navItem:hover {
-    color: black;
+    color: #FC6E6A;
     cursor: pointer;
+    text-decoration: underline;
 }
 
 img {

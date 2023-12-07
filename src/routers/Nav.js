@@ -14,7 +14,7 @@ const NavBar = () => {
       <Link className="navItem" to="projects" spy={true} smooth={true} offset={50} duration={500}>
         Projects
       </Link>
-      <Link className="navItem" to="projects" spy={true} smooth={true} offset={50} duration={500}>
+      <Link className="navItem" to="contact" spy={true} smooth={true} offset={50} duration={500}>
         Contact
       </Link>
     </div>
