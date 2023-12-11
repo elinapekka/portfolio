@@ -58,27 +58,14 @@
 .project-more {
     padding: 1vh;
     border-radius: 2vh;
-    background-color: #F9635D;
     text-decoration: none;
     align-items: center;
-    color:white;
+    color:#F9635D;
     font-size:  2vh;
 }
 
 .project-more:hover {
-    background: linear-gradient(-45deg, #ffc5c5, hsl(2, 100%, 74%), #FFC456);
-	background-size: 400% 400%;
-	animation: gradient 5s ease infinite;
+    color: white;
+    background-color: #F9635D;
 }
 
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
-}

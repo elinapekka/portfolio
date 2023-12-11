@@ -24,7 +24,7 @@ const Projects = () => {
               <br />
               Here you can find some of the projects I've worked on over the years. Some other 
               projects I've been involved in are through project courses which utilized different
-              agile frameworks, such as Scrum.
+              agile frameworks, such as Scrum. I'm also familiar with Git version control.
             </p>
           </div>
         </div>

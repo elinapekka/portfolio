@@ -3,7 +3,8 @@
 import {Link} from 'react-router-dom';
 import "../style/ProjectPages.css";
 import projectPic from "../images/For_Ellu/Scheduling-example-photo.png";
-import arrow from "../images/arrow.png";
+import arrow from "../images/For_Ellu/arrow.png";
+import star from "../images/star.png";
 
 const Fitness = () => {
 
@@ -11,7 +12,7 @@ const Fitness = () => {
     <div className="content">
       <div id="project-page">
 
-        <Link className="back-button" to="/" preventScrollReset={true}><img href={arrow} alt="arrow here"></img>Go back</Link>
+        <Link className="back-button" to="/" preventScrollReset={true}><img src={arrow} alt="arrow here"></img>Go back</Link>
         <h1>Personal Trainer App</h1>
           <div className="project-container">
             <div className="first-half">
@@ -25,7 +26,7 @@ const Fitness = () => {
               </div>
             
               <p>
-                This project was done as a part of the Front-End Developer -course in the Spring of 2023. 
+                This project was done as a part of the <span style={{fontStyle: "italic"}}>Front-End Developer</span> -course in the Spring of 2023. 
                 In the project, we created an application for Personal Trainers where they can keep track of their 
                 customers and trainings with the customers. Some other features are provided as well, like calendar
                 which provides a visual presentation of the schedule for the trainings.
@@ -39,12 +40,16 @@ const Fitness = () => {
                 <br/>
                 <br/>
                 Since this course ended, I've been able to utilize my learned skills in other projects such as a project 
-                course where we created a website for Sibelius Academy, and of course, for this project.
+                course where we created a full-stack website for Sibelius Academy (2023 Fall, still on-going), and of course, for this project.
               </p>
               
               
-              <a className="link-to-page" href="https://elinapekka.github.io/personaltrainerapp/" target="_blank" rel="noreferrer">
-                Visit the page!
+              <a href="https://elinapekka.github.io/personaltrainerapp/" target="_blank" rel="noreferrer">
+                <div className="link-to-page" >
+                  <img src={star} alt=""/>
+                  <p>Visit the page!</p>
+                  <img src={star} alt=""/>
+                </div>Visit the page!
               </a>
             </div>
             <img src={projectPic} alt="project"/>

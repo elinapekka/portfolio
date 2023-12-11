@@ -9,6 +9,22 @@
     width: 100%;
 }
 
+.back-button {
+    color: #FC6E6A;
+    font-size: 2.75vh;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 2%;
+    font-style: italic;
+    letter-spacing: 0.4vh;
+}
+
+.back-button img {
+    height: 2vh;
+    width: auto;
+    padding-right: 2vh;
+}
+
 h1 {
     padding-top: 5vh;
     padding-bottom: 5vh;
@@ -30,20 +46,14 @@ h1 {
     height: auto;
 }
 
-.back-button {
-    color: #FC6E6A;
-    font-size: 2.75vh;
-    font-weight: bold;
-    text-decoration: none;
-    margin-top: 2%;
+.project-container iframe {
+    height: 40vh;
+    width: 100%;
+    margin-left: 7vh;
+    border-width: 0.2vh;
+    border-radius: 1vh;
+    border-color: #FC6E6A;
 }
-
-
-.back-button img {
-    height: 2vh;
-    width: auto;
-}
-
 
 
 #project-tags {
@@ -72,16 +82,34 @@ h1 {
     padding: 0.2vh;
 }
 
+
 .link-to-page {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
     background-color: #FC6E6A;
+    border-radius: 3vh;
+    padding: 1.5vh;
+    width: fit-content;
+}
+
+a, .link-to-page p {
     text-decoration: none;
     font-weight: bold;
     color: white;
-    border-radius: 2vh;
-    padding: 1.5vh;
     font-size: 2vh;
+    margin: auto;
+    padding: 0vh 1vh 0vh 1vh;
 }
 
+.link-to-page img {
+    width: 2vh;
+    height: 2vh;
+    margin: auto;
+    padding: 0vh;
+}
 
 .link-to-page:hover {
     background: linear-gradient(-45deg, #ffc5c5, hsl(2, 100%, 74%), #FFC456);

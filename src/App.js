@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import {useLayoutEffect} from 'react';
 import HomePage from './HomePage';
-import Jarpec from './components/projects/Jarpec';
+import Jarpec from './components/Jarpec';
 import Fitness from './components/Fitness';
-import Recipes from './components/projects/Recipes';
+import Recipes from './components/Recipes';
 import Message from "./components/Message"
 
 

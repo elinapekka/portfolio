@@ -8,13 +8,14 @@ const About = () => {
       <div id="about">
         <div id="about-content">
           <div className="about-content-item">
-            <h1>About me</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
-              incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis 
-              nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
-              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu 
-              fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in 
-              culpa qui officia deserunt mollit anim id est laborum. </p>
+            <h1>Hello there!</h1>
+            <p>
+              My name is Elina and I am a third-year Business Information Technology 
+              student from Haaga-Helia University of Applied Sciences. My specialization is Software Development 
+              and I've also enjoyed taking the Digital Design -courses. Through my studies I've discovered a 
+              passion for coding and therefore would like to pursue it as a career. 
+              I'm currently actively looking for an internship and thesis opportunities within the field! 
+            </p>
 
             <div id="taglines">
               <div className="tag" id="tag-1"><p>Always ready to learn new</p></div>

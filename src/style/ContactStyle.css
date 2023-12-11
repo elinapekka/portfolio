@@ -17,9 +17,10 @@
 }
 
 .contact-info img {
-    width: auto;
+    width: 8vh;
     height: 8vh;
     margin: 0;
+    padding: 0;
 }
 
 #footer {
