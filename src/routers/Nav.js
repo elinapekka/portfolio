@@ -6,17 +6,19 @@ import logo from "../images/For_Ellu/Elina-Pekkanen-02.png";
 
 const NavBar = () => {
   return (
-    <div id="navbar" >
-      <img src={logo} alt="website logo"></img>
-      <Link className="navItem" to="about" spy={true} smooth={true} offset={50} duration={500}>
-        About me
-      </Link>
-      <Link className="navItem" to="projects" spy={true} smooth={true} offset={50} duration={500}>
-        Projects
-      </Link>
-      <Link className="navItem" to="contact" spy={true} smooth={true} offset={50} duration={500}>
-        Contact
-      </Link>
+    <div className="content">
+      <div id="navbar" >
+        <img src={logo} alt="website logo"></img>
+        <Link className="navItem" to="about" spy={true} smooth={true} offset={50} duration={500}>
+          About me
+        </Link>
+        <Link className="navItem" to="projects" spy={true} smooth={true} offset={50} duration={500}>
+          Projects
+        </Link>
+        <Link className="navItem" to="contact" spy={true} smooth={true} offset={50} duration={500}>
+          Contact
+        </Link>
+      </div>
     </div>
   );
 };

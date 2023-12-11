@@ -1,0 +1,103 @@
+#project-page {
+    padding: 3vh 15vh 10vh 15vh;
+}
+
+.project-container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;    
+    width: 100%;
+}
+
+h1 {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+}
+
+.first-half {
+    padding-right: 7vh;
+}
+
+.first-half p {
+    width: 100%;
+    height: auto;
+    padding-bottom: 2vh;
+}
+
+.project-container img {
+    padding-left: 7vh;
+    width: 40%;
+    height: auto;
+}
+
+.back-button {
+    color: #FC6E6A;
+    font-size: 2.75vh;
+    font-weight: bold;
+    text-decoration: none;
+    margin-top: 2%;
+}
+
+
+.back-button img {
+    height: 2vh;
+    width: auto;
+}
+
+
+
+#project-tags {
+    display: flex;
+    align-items: stretch;
+    justify-content: flex-start;
+    margin-bottom: 3vh;
+}
+
+.project-tag {
+    height: auto;
+    margin-right: 1.5vh;
+    padding: 1vh;
+    display: flex; 
+    align-items: center; 
+    border-radius: 1vh;
+}
+
+.project-tag p {
+    color: white;
+    font-weight: bold;
+    margin: auto;
+    text-align: center;
+    font-size: 1.75vh;
+    line-height: 2.6vh;
+    padding: 0.2vh;
+}
+
+.link-to-page {
+    background-color: #FC6E6A;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    border-radius: 2vh;
+    padding: 1.5vh;
+    font-size: 2vh;
+}
+
+
+.link-to-page:hover {
+    background: linear-gradient(-45deg, #ffc5c5, hsl(2, 100%, 74%), #FFC456);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+

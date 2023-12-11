@@ -45,10 +45,40 @@
 .project-item p {
     width: 70%;
     margin: auto;
+    margin-bottom: 3vh;
     line-height: 3vh;
+
 }
 
 .project-item-img{
     width: 50%;
     border-radius: 25px;
+}
+
+.project-more {
+    padding: 1vh;
+    border-radius: 2vh;
+    background-color: #F9635D;
+    text-decoration: none;
+    align-items: center;
+    color:white;
+    font-size:  2vh;
+}
+
+.project-more:hover {
+    background: linear-gradient(-45deg, #ffc5c5, hsl(2, 100%, 74%), #FFC456);
+	background-size: 400% 400%;
+	animation: gradient 5s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }

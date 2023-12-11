@@ -35,4 +35,5 @@ p {
 .content {
   height: auto; 
   background-color: #FFFAF5;
+  width: 100%;
 }
