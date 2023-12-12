@@ -1,25 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.965d56be.css",
-    "main.js": "/portfolio/static/js/main.9edc288d.js",
+    "main.css": "/portfolio/static/css/main.990f5345.css",
+    "main.js": "/portfolio/static/js/main.36de3963.js",
     "static/js/787.7da95b79.chunk.js": "/portfolio/static/js/787.7da95b79.chunk.js",
     "static/media/Elina.png": "/portfolio/static/media/Elina.b1ec7b3c03b146a775a1.png",
     "static/media/Projects.png": "/portfolio/static/media/Projects.a3d65593750b61cf353c.png",
     "static/media/1_Scheduling-project-IMG.jpg": "/portfolio/static/media/1_Scheduling-project-IMG.988127d765b2460c98fc.jpg",
     "static/media/1_Recipes-project-IMG.jpg": "/portfolio/static/media/1_Recipes-project-IMG.3c8bacab729f6b5d48bb.jpg",
+    "static/media/Contact.png": "/portfolio/static/media/Contact.e84df1bd138f74db05e5.png",
     "static/media/Scheduling-example-photo.png": "/portfolio/static/media/Scheduling-example-photo.713ab33803f5b42c609b.png",
-    "static/media/Contact.png": "/portfolio/static/media/Contact.0cf4a1c63746d5088cdf.png",
     "static/media/1_Jarpec-project-IMG.jpg": "/portfolio/static/media/1_Jarpec-project-IMG.3fdaa89cfac6530df13d.jpg",
+    "static/media/Elina-Pekkanen-01.png": "/portfolio/static/media/Elina-Pekkanen-01.0e9f280f3fd0eaa451e8.png",
     "static/media/Elina-Pekkanen-02.png": "/portfolio/static/media/Elina-Pekkanen-02.09e5dcb5881fe0557ce2.png",
     "static/media/arrow.png": "/portfolio/static/media/arrow.2d5dbf7c95ff1ce318f7.png",
     "static/media/linkedin.png": "/portfolio/static/media/linkedin.f249b38224ca41a0b909.png",
     "index.html": "/portfolio/index.html",
-    "main.965d56be.css.map": "/portfolio/static/css/main.965d56be.css.map",
-    "main.9edc288d.js.map": "/portfolio/static/js/main.9edc288d.js.map",
+    "main.990f5345.css.map": "/portfolio/static/css/main.990f5345.css.map",
+    "main.36de3963.js.map": "/portfolio/static/js/main.36de3963.js.map",
     "787.7da95b79.chunk.js.map": "/portfolio/static/js/787.7da95b79.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.965d56be.css",
-    "static/js/main.9edc288d.js"
+    "static/css/main.990f5345.css",
+    "static/js/main.36de3963.js"
   ]
 }
