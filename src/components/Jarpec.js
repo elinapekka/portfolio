@@ -4,7 +4,6 @@ import {Link} from 'react-router-dom';
 import "../style/ProjectPages.css";
 import projectPic from "../images/For_Ellu/Projects/3_Jarpec-logo-JP_värillinen_CMYK.png";
 import arrow from "../images/For_Ellu/arrow.png";
-import star from "../images/star.png";
 
 const Jarpec = () => {
 
@@ -43,9 +42,7 @@ const Jarpec = () => {
               <div className='link-to-page'>
                 <a href="https://demojarpec.github.io/" target="_blank" rel="noreferrer">
                   <div className='inside-link'>
-                    <img src={star} alt="" />
                     <p>Visit the page!</p>
-                    <img src={star} alt="" />
                   </div>
                 </a>
               </div>

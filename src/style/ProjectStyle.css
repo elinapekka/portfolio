@@ -55,6 +55,11 @@
     border-radius: 25px;
 }
 
+.project-item-img:hover{
+    opacity: 0.6;
+    transition: .5s ease;
+}
+
 .project-more {
     padding: 1vh;
     border-radius: 2vh;

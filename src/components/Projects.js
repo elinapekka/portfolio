@@ -31,16 +31,20 @@ const Projects = () => {
 
         <div id="project-container">
           <div className="project-item">
+          <Link to="/fitness-scheduler">
             <img className="project-item-img" src={projectFitness} alt="fitness project"/>
+          </Link>
             <h2>Fitness scheduler</h2>
             <p>
               A fitness scheduler made for the Frontend course utilizing React and MUI
               component library. 
             </p>
-            <Link className="project-more" to="/fitness-scheduler" preventScrollReset={false}>Read more</Link>
+            <Link className="project-more" to="/fitness-scheduler">Read more</Link>
           </div>
           <div className="project-item">
-            <img className="project-item-img" src={projectRecipe} alt="recipe project"/>
+            <Link to="/recipes">
+              <img className="project-item-img" src={projectRecipe} alt="recipe project"/>
+            </Link>
             <h2>Recipe backend app</h2>
             <p>
               Personal project for the backend course, documenting recipes to a database 
@@ -49,7 +53,9 @@ const Projects = () => {
             <Link className="project-more" to="/recipes">Read more</Link>
           </div>
           <div className="project-item">
-            <img className="project-item-img" src={projectJarpec} alt="jarpec project"/>
+            <Link to="/jarpec">
+              <img className="project-item-img" src={projectJarpec} alt="jarpec project"/>
+            </Link>
             <h2>Jarpec website design</h2>
             <p>
               My first ever coding project! Made a basic website for a company using 

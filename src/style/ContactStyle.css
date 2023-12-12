@@ -1,6 +1,5 @@
 #contact {
-    padding-left: 5%;
-    padding-right: 5%;
+    padding: 5%;
 }
 
 #contact-content {
@@ -64,6 +63,7 @@
         align-items: flex-start;
         justify-content: center;    
         margin: auto;
+        padding: 0vh 5vh 5vh 5vh;
     }
 
 

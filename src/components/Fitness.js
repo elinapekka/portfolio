@@ -4,10 +4,8 @@ import {Link} from 'react-router-dom';
 import "../style/ProjectPages.css";
 import projectPic from "../images/For_Ellu/Scheduling-example-photo.png";
 import arrow from "../images/For_Ellu/arrow.png";
-import star from "../images/star.png";
 
 const Fitness = () => {
-
   return (
     <div className="content">
       <div id="project-page">
@@ -46,10 +44,8 @@ const Fitness = () => {
               
               <a href="https://elinapekka.github.io/personaltrainerapp/" target="_blank" rel="noreferrer">
                 <div className="link-to-page" >
-                  <img src={star} alt=""/>
                   <p>Visit the page!</p>
-                  <img src={star} alt=""/>
-                </div>Visit the page!
+                </div>
               </a>
             </div>
             <img className="project-pic" src={projectPic} alt="project"/>

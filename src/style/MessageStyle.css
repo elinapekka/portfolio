@@ -1,5 +1,5 @@
 .message {
-    height: 3vh;
+    height: 2.2vh;
     padding-bottom: 0.5vh; 
     overflow: hidden;
     position: relative;
@@ -7,7 +7,7 @@
     background-color: #24A255;
     color: white;
     font-weight: 500;
-    font-size: 2vh;
+    font-size: 1.7vh;
 }
 
 .message img {
@@ -32,9 +32,9 @@
     transform:translateX(100%);
   
    /* Apply animation to this element */  
-    -moz-animation: message 25s linear infinite;
-    -webkit-animation: message 25s linear infinite;
-    animation: message 25s linear infinite;
+    -moz-animation: message 35s linear infinite;
+    -webkit-animation: message 35s linear infinite;
+    animation: message 35s linear infinite;
 
 }
   
