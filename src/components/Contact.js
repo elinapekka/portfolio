@@ -6,18 +6,19 @@ import githubLogo from "../images/github.png"
 const Contact = () => {
   return (
     <section className="content">
-      <div id="contact" style={{height: "50vh"}}>
+      <div id="contact">
         <div id="contact-content">
           <div className="contact-info">
             <h1>Contact info</h1>
             <p>
               On LinkedIn you can find more in-depth information about my educational background and skills. 
+              <br />
               Don't hesitate to send me a message if you are curious about anything!  
             </p>
-            <a href="https://www.linkedin.com/in/elina-pekkanen-457a26264/" target="_blank" rel="noreferrer"><img src={linkedInLogo} alt="linkedin logo"/></a>
-            <a href="https://github.com/elinapekka" target="_blank" rel="noreferrer"><img src={githubLogo} alt="github logo"/></a>
+            <a href="https://www.linkedin.com/in/elina-pekkanen-457a26264/" target="_blank" rel="noreferrer"><img className="web-logo" src={linkedInLogo} alt="linkedin logo"/></a>
+            <a href="https://github.com/elinapekka" target="_blank" rel="noreferrer"><img className="web-logo" src={githubLogo} alt="github logo"/></a>
           </div>
-          <img src={illustration} alt="contact illustration"/>
+          <img className="contact-illustration" src={illustration} alt="contact illustration"/>
         </div>
       </div>
       <div id="footer">

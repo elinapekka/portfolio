@@ -1,4 +1,4 @@
-#navbar {
+#navbar, #links{
     display: flex;
     align-items: flex-start;
     justify-content: flex-end;    
@@ -24,8 +24,67 @@
     text-decoration: underline;
 }
 
-img {
+#logo {
     width: 30%;
     height:auto;
     margin-right: auto;
+}
+
+#logo-mobile {
+    height: 0vh;
+    width: 0vh;
+    visibility:hidden;
+}
+
+
+
+/* On screens that are 992px wide or less, go from four columns to two columns */
+@media screen and (max-width: 992px) {
+
+
+}
+  
+/* On screens that are 600px wide or less, make the columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+
+    #navbar {
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;   
+        flex-direction: column; 
+        height: auto;
+        margin: auto;
+        width: 100%;
+        padding: 0;
+    }
+    
+    #links {
+        height: auto;
+        margin: auto;
+        width: 100%;
+        padding: 0;
+        margin: 0;
+
+    }
+
+    #logo-mobile {
+        visibility: visible;
+        margin: auto;
+        height: auto;
+        width: 80%;
+        padding: 0;
+    }
+
+    .navItem {
+        padding: 0;
+        color: #FFC456;
+        margin: auto;
+    }
+
+    #logo {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
 }

@@ -40,16 +40,18 @@ const Jarpec = () => {
                 I believe this project and the course in general left me with great tools in web development.
               </p>
               
+              <div className='link-to-page'>
+                <a href="https://demojarpec.github.io/" target="_blank" rel="noreferrer">
+                  <div className='inside-link'>
+                    <img src={star} alt="" />
+                    <p>Visit the page!</p>
+                    <img src={star} alt="" />
+                  </div>
+                </a>
+              </div>
               
-              <a href="https://demojarpec.github.io/" target="_blank" rel="noreferrer">
-                <div className="link-to-page" >
-                <img src={star} alt="" />
-                <p>Visit the page!</p>
-                <img src={star} alt="" />
-                </div>
-              </a>
             </div>
-            <img src={projectPic} alt="project"/>
+            <img className="project-pic" src={projectPic} alt="project"/>
           </div>
       </div>
     </div>

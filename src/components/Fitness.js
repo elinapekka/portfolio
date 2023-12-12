@@ -52,7 +52,7 @@ const Fitness = () => {
                 </div>Visit the page!
               </a>
             </div>
-            <img src={projectPic} alt="project"/>
+            <img className="project-pic" src={projectPic} alt="project"/>
           </div>
       </div>
     </div>

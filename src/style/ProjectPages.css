@@ -30,7 +30,7 @@
     padding-right: 2vh;
 }
 
-h1 {
+#project-page h1 {
     padding-top: 5vh;
     padding-bottom: 5vh;
 }
@@ -45,7 +45,7 @@ h1 {
     padding-bottom: 2vh;
 }
 
-.project-container img {
+.project-pic {
     padding-left: 7vh;
     width: 40%;
     height: auto;
@@ -100,6 +100,14 @@ h1 {
     width: fit-content;
 }
 
+.inside-link {
+    display: flex;
+    align-items: flex-start;
+    align-content: flex-start;
+    flex-direction: row;
+    justify-content: center;
+}
+
 a, .link-to-page p {
     text-decoration: none;
     font-weight: bold;
@@ -134,3 +142,72 @@ a, .link-to-page p {
 	}
 }
 
+
+
+
+@media screen and (max-width: 992px) {
+
+}
+  
+
+
+@media screen and (max-width: 600px) {
+    .back-button {
+        font-size: 4vh;
+    }
+
+    .back-button img {
+        height: 3.5vh;
+        margin: auto;
+    }
+
+    #project-page {
+        padding: 5%;
+        text-align: center;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: center;    
+        margin: auto;
+    }
+
+    .link-to-page {
+        margin: 0 auto; 
+        text-align: center
+    }
+    
+    .first-half {
+        padding: 0;
+        margin: auto;
+    }
+
+    #project-tags {
+        justify-content: center;
+    }
+
+    .project-pic {
+        padding-left: 0;
+        padding-bottom: 5vh;
+        margin: auto;
+        width: 40%;
+        height: auto;
+    }
+    
+    .project-container iframe {
+        height: auto;
+        width: 100%;
+        margin: auto;
+        margin-bottom: 5vh;
+    }
+
+    .link-to-page img {
+        width: 2vh;
+        height: 2vh;
+        margin: auto;
+        padding: 0vh;
+    }
+
+}

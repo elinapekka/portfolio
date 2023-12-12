@@ -61,3 +61,56 @@
 }
 
 
+@media screen and (max-width: 992px) {
+
+
+}
+  
+
+
+@media screen and (max-width: 600px) {
+
+    .about-content-item h1 {
+        padding: 3vh;
+    }
+    
+    #about {
+        padding: 1%;
+        text-align: center;
+    }
+    
+    .elina-illustration {
+        visibility: hidden;
+        height: 0vh;
+    }
+
+    #about-content {
+        display: flex;
+        flex-direction: column; 
+        align-items: center;
+        justify-content: center;    
+        padding: 0vh 5vh 0vh 5vh;
+    }
+
+    #taglines {
+        margin-top: 4vh;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        width: auto;
+        height: auto;
+    }
+    
+    .tag {
+        height: auto;
+        width: auto;
+        margin: 1vh;
+        
+    }
+    
+    .tag p {
+        font-size: 3vh;
+        margin: auto;
+        padding-bottom: 0;
+    }
+
+}
