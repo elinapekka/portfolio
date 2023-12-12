@@ -72,6 +72,7 @@
 .project-more:hover {
     color: white;
     background-color: #F9635D;
+    transition: .5s ease;
 }
 
 
