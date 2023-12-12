@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, useLocation } from 'react-router-dom';
 import {useLayoutEffect} from 'react';
 import HomePage from './HomePage';
 import Jarpec from './components/Jarpec';

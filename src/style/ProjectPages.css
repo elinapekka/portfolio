@@ -9,6 +9,11 @@
     width: 100%;
 }
 
+
+.project-container p {
+    line-height: 4vh;
+}
+
 .back-button {
     color: #FC6E6A;
     font-size: 2.75vh;

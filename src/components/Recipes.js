@@ -8,7 +8,7 @@ const Recipes = () => {
 
   return (
     <div className="content">
-      <div id="project-page">
+      <div id="project-page" style={{height: "90vh"}}>
 
         <Link className="back-button" to="/" preventScrollReset={true}><img src={arrow} alt="arrow here"></img>Go back</Link>
         <h1>Recipe book</h1>
