@@ -6,6 +6,7 @@ import Jarpec from './components/Jarpec';
 import Fitness from './components/Fitness';
 import Recipes from './components/Recipes';
 import Message from "./components/Message"
+import NavBar from './routers/Nav';
 
 
 const Wrapper = ({children}) => {
@@ -23,7 +24,9 @@ export default function App() {
     <div>
       <Message />
       <Router>
+        
         <Wrapper>
+          <NavBar />
           <Routes>
             <Route exact path="/" element={<HomePage />} />
             <Route path="/fitness-scheduler" element={<Fitness />} />

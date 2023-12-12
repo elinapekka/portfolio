@@ -10,7 +10,6 @@ const Jarpec = () => {
   return (
     <div className="content">
       <div id="project-page">
-
         <Link className="back-button" to="/" preventScrollReset={true}><img src={arrow} alt="arrow here"></img>Go back</Link>
         <h1>Personal Trainer App</h1>
           <div className="project-container">
