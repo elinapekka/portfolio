@@ -34,7 +34,7 @@ const Projects = () => {
           <Link to="/fitness-scheduler">
             <img className="project-item-img" src={projectFitness} alt="fitness project"/>
           </Link>
-            <h2>Fitness scheduler</h2>
+            <h2>Personal trainer app</h2>
             <p>
               A fitness scheduler made for the Frontend course utilizing React and MUI
               component library. 
@@ -45,7 +45,7 @@ const Projects = () => {
             <Link to="/recipes">
               <img className="project-item-img" src={projectRecipe} alt="recipe project"/>
             </Link>
-            <h2>Recipe backend app</h2>
+            <h2>Recipe book app</h2>
             <p>
               Personal project for the backend course, documenting recipes to a database 
               utilizing Java, Spring Boot/Framework, and SQL.

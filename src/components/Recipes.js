@@ -8,7 +8,7 @@ const Recipes = () => {
 
   return (
     <div className="content">
-      <div id="project-page" style={{height: "90vh"}}>
+      <div id="project-page">
 
         <Link className="back-button" to="/" preventScrollReset={true}><img src={arrow} alt="arrow here"></img>Go back</Link>
         <h1>Recipe book</h1>
@@ -36,6 +36,21 @@ const Recipes = () => {
                 <br/>
                 The project was at the time deployed into Haaga-Helia's servers which have since been taken down. 
                 That being said, I still have this wonderful video to demonstrate the application! 
+                <br/>
+                <br/>
+                Timestamps from the video:
+                <br/>
+                0:00 - Admin view
+                <br/>
+                0:09 - Edit recipe
+                <br/>
+                0:56 - Add new recipe
+                <br/>
+                2:30 - View & delete the newly added recipe
+                <br/>
+                2:39 - View, add, edit & delete units
+                <br/>
+                3:15 - User view
               </p>
             </div>
             <iframe title="Video to demostrate the app" src="https://www.youtube.com/embed/WA6WexPhqP4"></iframe>

@@ -11,7 +11,7 @@ const Jarpec = () => {
     <div className="content">
       <div id="project-page">
         <Link className="back-button" to="/" preventScrollReset={true}><img src={arrow} alt="arrow here"></img>Go back</Link>
-        <h1>Personal Trainer App</h1>
+        <h1>Jarpec website</h1>
           <div className="project-container">
             <div className="first-half">
 
@@ -30,7 +30,7 @@ const Jarpec = () => {
                 <br/>
                 I have since learned a lot and can see that there are many things to improve on, but at the time I was
                 very happy with my work. I remember this time of my studies
-                being very exiting since everything was still so new and it truly sparked my interest
+                being very exciting since everything was still so new and it truly sparked my interest
                 towards coding.
                 <br/>
                 <br/>
