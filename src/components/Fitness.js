@@ -1,16 +1,17 @@
-//import ".../style/NavStyle.css";
-//import NavBar from "../routers/Nav";
-import {Link} from 'react-router-dom';
 import "../style/ProjectPages.css";
 import projectPic from "../images/For_Ellu/Scheduling-example-photo.png";
 import arrow from "../images/For_Ellu/arrow.png";
+import { HashLink } from 'react-router-hash-link';
 
 const Fitness = () => {
   return (
     <div className="content">
       <div id="project-page">
 
-        <Link className="back-button" to="/" preventScrollReset={true}><img src={arrow} alt="arrow here"></img>Go back</Link>
+        <HashLink className="back-button" to="/#projects" preventScrollReset={true}>
+          <img src={arrow} alt="arrow here"></img>
+          Go back
+        </HashLink>
         <h1>Personal Trainer App</h1>
           <div className="project-container">
             <div className="first-half">

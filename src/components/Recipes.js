@@ -1,6 +1,6 @@
 //import ".../style/NavStyle.css";
 //import NavBar from "../routers/Nav";
-import {Link} from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 import "../style/ProjectPages.css";
 import arrow from "../images/For_Ellu/arrow.png";
 
@@ -10,7 +10,10 @@ const Recipes = () => {
     <div className="content">
       <div id="project-page">
 
-        <Link className="back-button" to="/" preventScrollReset={true}><img src={arrow} alt="arrow here"></img>Go back</Link>
+        <HashLink className="back-button" to="/#projects" preventScrollReset={true}>
+          <img src={arrow} alt="arrow here"></img>
+          Go back
+        </HashLink>
         <h1>Recipe book</h1>
           <div className="project-container">
             <div className="first-half">
