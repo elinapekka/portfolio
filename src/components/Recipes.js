@@ -26,22 +26,22 @@ const Recipes = () => {
               </div>
             
               <p>
-                This project was done as a part of the <span style={{fontStyle: "italic"}}>Server Developer</span> -course in the Spring of 2023. 
+                This project was a part of the <span style={{fontStyle: "italic"}}>Server Developer</span> -course 
+                in the Spring of 2023. 
                 Everyone got to choose the topic of their project themselves, and I chose to create a website
                 where I can keep track of my recipes. 
                 <br/>
                 <br/>
-                The website was created using Java, Spring Framework/Boot, and I also created a database using SQL
-                scripts.
-                The website was made using the CRUD-principle (create, read, update delete), and there are  
-                different views depending on role of the user.
+                The website was created using Java, and Spring Framework/Boot. I also created a database using SQL 
+                scripts. The website was made using the CRUD principle (create, read, update delete), and there are 
+                different views depending on the role of the user.
                 <br/>
                 <br/>
                 The project was at the time deployed into Haaga-Helia's servers which have since been taken down. 
-                That being said, I still have this wonderful video to demonstrate the application! 
+                That being said, I still have this wonderful video to demonstrate the application!
                 <br/>
                 <br/>
-                Timestamps from the video:
+                Timestamps for the video:
                 <br/>
                 0:00 - Admin view
                 <br/>

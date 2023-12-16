@@ -33,6 +33,7 @@
     padding: 1vh;
     display: flex; 
     align-items: center; 
+    border-radius: 3vh;
 }
 
 .tag p {
@@ -40,7 +41,7 @@
     font-weight: bold;
     margin: auto;
     text-align: center;
-    font-size: 2.5vh;
+    font-size: 2.3vh;
     line-height: 2.6vh;
 }
 
@@ -71,7 +72,7 @@
 @media screen and (max-width: 600px) {
 
     .about-content-item h1 {
-        padding: 3vh;
+        padding: 2vh;
     }
     
     #about {
@@ -89,7 +90,7 @@
         flex-direction: column; 
         align-items: center;
         justify-content: center;    
-        padding: 0vh 5vh 0vh 5vh;
+        padding: 0vh 1vh 0vh 1vh;
     }
 
     #taglines {
@@ -104,13 +105,14 @@
         height: auto;
         width: auto;
         margin: 1vh;
-        
+        border-radius: 2vh;
     }
     
     .tag p {
-        font-size: 3vh;
+        font-size: 2vh;
         margin: auto;
         padding-bottom: 0;
+        line-height: 2vh;
     }
 
 }

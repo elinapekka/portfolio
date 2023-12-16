@@ -24,17 +24,16 @@ const Jarpec = () => {
               </div>
             
               <p>
-                This project was done as a part of the <span style={{fontStyle: "italic"}}>Introduction to Digital Design</span> -course in the Fall of 2021, 
+                This project was a part of the <span style={{fontStyle: "italic"}}>Introduction to Digital Design</span> -course in the Fall of 2021, 
                 where the aim was to familiarize ourselves with HTML and CSS. We got to do a project of our choice as
                 the end project, and I decided to do a website for the company Jarpec, where I utilized different 
-                design princples to create a user-friendly website. In the website, responsive design and 
+                design principles to create a user-friendly website. In the website, responsive design and 
                 many different types of boxes/containers are utilized.
                 <br/>
                 <br/>
                 I have since learned a lot and can see that there are many things to improve on, but at the time I was
                 very happy with my work. I remember this time of my studies
-                being very exciting since everything was still so new and it truly sparked my interest
-                towards coding.
+                being very exciting since everything was still so new and it truly sparked my interest in coding.
                 <br/>
                 <br/>
                 Since this course ended, I've been able to utilize the skills I learned in nearly every project.

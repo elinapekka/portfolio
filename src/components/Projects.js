@@ -15,16 +15,25 @@ const Projects = () => {
           <div className="project-description">
             <h1>Projects</h1>
             <p>
-              Some coding languages I've learned include Java, Python, JavaScript, 
-              TypeScript, HTML and CSS. I'm also very capable of working with React (for 
-              reference, this website was made using React). I'm very willing and excited
-              to learn new coding languages and tools as well, I'm especially interested in
-              learning Angular and Vue.js. 
+              I've got a solid foundation in various coding languages, including 
+              <span style={{fontWeight: "bold"}}> Java</span>, 
+              <span style={{fontWeight: "bold"}}> Python</span>, 
+              <span style={{fontWeight: "bold"}}> JavaScript</span>, 
+              <span style={{fontWeight: "bold"}}> TypeScript</span>, 
+              <span style={{fontWeight: "bold"}}> HTML</span>, and 
+              <span style={{fontWeight: "bold"}}> CSS</span>. 
+              I'm also familiar working with 
+              <span style={{fontWeight: "bold"}}> React</span>, for instance, 
+              it was used to create this portfolio! 
+              I'm always up for a coding challenge and eager to expand my skill set. 
+              Currently eyeing Angular and Vue.js for my next learning adventure.
               <br />
               <br />
               Here you can find some of the projects I've worked on over the years. Some other 
-              projects I've been involved in are through project courses which utilized different
+              projects I've been involved in are through project courses that utilized different
               agile frameworks, such as Scrum. I'm also familiar with Git version control.
+
+
             </p>
           </div>
         </div>

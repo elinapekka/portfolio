@@ -25,21 +25,23 @@ const Fitness = () => {
               </div>
             
               <p>
-                This project was done as a part of the <span style={{fontStyle: "italic"}}>Front-End Developer</span> -course in the Spring of 2023. 
+                This project was part of the <span style={{fontStyle: "italic"}}>Front-End Developer </span> 
+                -course in the Spring of 2023. 
                 In the project, we created an application for Personal Trainers where they can keep track of their 
-                customers and trainings with the customers. Some other features are provided as well, like calendar
-                which provides a visual presentation of the schedule for the trainings.
-                The backend was accessed through APIs which were provided to us. 
+                customers and trainings. Some other features are also provided, like a calendar which provides a 
+                visual presentation of the training schedule. The backend was accessed through APIs that were 
+                provided to us.
                 <br/>
                 <br/>
-                The application was made by utilizing React.js and Material UI (MUI) component library. 
+                The application was made using React.js and Material UI (MUI) component library. 
                 Through this project, I was able to familiarize myself with the creation of single-page applications.
                 Since the project was purely to learn front-end development, the backend was accessed through APIs 
                 that were provided to us.
                 <br/>
                 <br/>
                 Since this course ended, I've been able to utilize my learned skills in other projects such as a project 
-                course where we created a full-stack website for Sibelius Academy (2023 Fall, still on-going), and of course, for this project.
+                course where we created a full-stack website for Sibelius Academy (2023 Fall, still ongoing), and of course, 
+                for this project.
               </p>
               
               

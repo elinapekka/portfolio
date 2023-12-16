@@ -10,11 +10,12 @@ const About = () => {
           <div className="about-content-item">
             <h1>Hello there!</h1>
             <p>
-              My name is Elina and I am a third-year Business Information Technology 
-              student from Haaga-Helia University of Applied Sciences. My specialization is Software Development 
-              and I've also enjoyed taking the Digital Design -courses. Through my studies I've discovered a 
-              passion for coding and therefore would like to pursue it as a career. 
-              I'm currently actively looking for an internship and thesis opportunities within the field! 
+            I'm Elina, currently in my third year studying Business Information Technology at 
+            Haaga-Helia University of Applied Sciences, with a focus on Software Development. 
+            I've had the pleasure of exploring Digital Design courses along the way. Coding has 
+            become more than just a subject for me—it's a passion I'm eager to turn into a career. 
+            As I'm entering my last year of studies, I'm actively seeking opportunities for 
+            internships and thesis projects in the field for the Spring of 2024!
             </p>
 
             <div id="taglines">
