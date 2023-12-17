@@ -117,13 +117,6 @@ a, .link-to-page p {
     padding: 0vh 1vh 0vh 1vh;
 }
 
-.link-to-page img {
-    width: 2vh;
-    height: 2vh;
-    margin: auto;
-    padding: 0vh;
-}
-
 .link-to-page:hover {
     background: linear-gradient(-45deg, #ffc5c5, hsl(2, 100%, 74%), #FFC456);
 	background-size: 400% 400%;
@@ -146,6 +139,56 @@ a, .link-to-page p {
 
 
 @media screen and (max-width: 992px) {
+    .back-button {
+        font-size: 2vh;
+    }
+
+    .back-button img {
+        height: 1.5vh;
+        margin: auto;
+    }
+
+    #project-page {
+        padding: 5%;
+        text-align: left;
+    }
+
+    .project-container {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        justify-content: center;    
+        margin: auto;
+    }
+
+    .link-to-page {
+        margin: 0 auto; 
+        text-align: center;
+    }
+    
+    .first-half {
+        padding: 0;
+        margin: auto;
+    }
+
+    #project-tags {
+        justify-content: left;
+    }
+
+    .project-pic {
+        padding-left: 0;
+        padding-bottom: 5vh;
+        margin: auto;
+        width: 25%;
+        height: auto;
+    }
+    
+    .project-container iframe {
+        height: auto;
+        width: auto;
+        margin: auto;
+        margin-bottom: 5vh;
+    }
 
 }
   
@@ -153,11 +196,12 @@ a, .link-to-page p {
 
 @media screen and (max-width: 600px) {
     .back-button {
-        font-size: 4vh;
+        font-size: 2.5vh;
+        padding-top: 4vh;
     }
 
     .back-button img {
-        height: 3.5vh;
+        height: 2vh;
         margin: auto;
     }
 
@@ -201,13 +245,6 @@ a, .link-to-page p {
         width: 100%;
         margin: auto;
         margin-bottom: 5vh;
-    }
-
-    .link-to-page img {
-        width: 2vh;
-        height: 2vh;
-        margin: auto;
-        padding: 0vh;
     }
 
 }
