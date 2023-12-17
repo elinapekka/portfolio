@@ -9,6 +9,7 @@ const About = () => {
         <div id="about-content">
           <div className="about-content-item">
             <h1>Hello there!</h1>
+            <img className="elina-illustration-mobile" src={illustrationElina} alt="illustration of me"></img>
             <p>
             I'm Elina, currently in my third year studying Business Information Technology at 
             Haaga-Helia University of Applied Sciences, with a focus on Software Development. 

@@ -20,6 +20,12 @@
     width: auto;
 }
 
+.elina-illustration-mobile {
+    visibility: hidden;
+    height: 0;
+    width: 0;
+}
+
 #taglines {
     display: flex;
     align-items: stretch;
@@ -63,7 +69,20 @@
 
 
 @media screen and (max-width: 992px) {
+    #about {
+        padding: 0;
+    }
 
+    #about-content {
+        width: 90%;
+        height: auto;
+    }
+
+
+    .elina-illustration {
+        width: 40%;
+        height: auto;
+    }
 
 }
   
@@ -82,7 +101,14 @@
     
     .elina-illustration {
         visibility: hidden;
-        height: 0vh;
+        width: 0;
+        height: 0;
+    }
+
+    .elina-illustration-mobile {
+        visibility: visible;
+        width: 60%;
+        height: auto;
     }
 
     #about-content {
