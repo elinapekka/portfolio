@@ -11,12 +11,12 @@ const About = () => {
             <h1>Hello there!</h1>
             <img className="elina-illustration-mobile" src={illustrationElina} alt="illustration of me"></img>
             <p>
-            I'm Elina, currently in my third year studying Business Information Technology at 
-            Haaga-Helia University of Applied Sciences, with a focus on Software Development. 
-            I've had the pleasure of exploring Digital Design courses along the way. Coding has 
-            become more than just a subject for me—it's a passion I'm eager to turn into a career. 
-            As I'm entering my last year of studies, I'm actively seeking opportunities for 
-            internships and thesis projects in the field for the Spring of 2024!
+            I'm Elina, a soon-to-graduate Business Information Technology student at 
+            Haaga-Helia University of Applied Sciences with a focus on Software Development. 
+            I've also had the pleasure of exploring Digital Design courses along the way which 
+            deal with user-experience and prototyping. Coding has become more than just a subject for me — it's 
+            a passion I'm eager to turn into a career. 
+            I'm actively seeking for internships and thesis opportunities in the field for the Spring of 2024!
             </p>
 
             <div id="taglines">
